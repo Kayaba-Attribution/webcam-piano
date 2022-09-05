@@ -34,7 +34,7 @@ function draw() {
 
     diffImg = createImage(video.width, video.height);
     diffImg.loadPixels();
-    diffImg.resize(currImg.width/4, currImg.height/4);
+    diffImg.resize(diffImg.width/4, diffImg.height/4);
 
 
     threshold = thresholdSlider.value();
